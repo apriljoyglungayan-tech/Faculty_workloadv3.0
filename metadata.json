@@ -1,0 +1,8 @@
+{
+  "name": "Remix Faculty Workload Portal - OBE \u0026 Reports Engine",
+  "description": "AI generation engine for Outcome-Based Education (OBE) Course Syllabi, Accomplishment Reports (AR), and Learner\u0027s Activity Reports (LAR).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

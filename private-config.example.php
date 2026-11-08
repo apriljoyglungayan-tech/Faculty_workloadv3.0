@@ -1,0 +1,20 @@
+<?php
+return [
+    'DB_HOST' => 'localhost',
+    'DB_PORT' => 3306,
+    'DB_NAME' => 'cpanel_database_name',
+    'DB_USER' => 'cpanel_database_user',
+    'DB_PASSWORD' => 'replace-with-a-long-random-database-password',
+    'GEMINI_API_KEY' => 'configure-a-server-side-key-here',
+    'GEMINI_MODEL' => 'gemini-3.1-flash-lite',
+    'TAVILY_API_KEY' => 'configure-a-tavily-server-side-key-here',
+    'COOKIE_SECURE' => true,
+    'ALLOW_FACULTY_REGISTRATION' => true,
+    'SHOW_DEMO_CREDENTIALS' => false,
+    'DEMO_ADMIN_EMAIL' => 'admin@example.edu',
+    'DEMO_ADMIN_PASSWORD' => 'replace-with-a-unique-password-of-at-least-12-characters',
+    'DEMO_FACULTY_EMAIL' => 'faculty@example.edu',
+    'DEMO_FACULTY_PASSWORD' => 'replace-with-a-different-unique-password',
+    'DEMO_FACULTY_NAME' => 'Faculty Demo Account',
+    'APP_DEBUG' => false,
+];

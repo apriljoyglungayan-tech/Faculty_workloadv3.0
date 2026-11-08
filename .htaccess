@@ -1,0 +1,12 @@
+Options -Indexes
+RewriteEngine On
+
+RewriteRule ^api(?:/(.*))?$ api.php?path=$1 [QSA,L]
+
+<FilesMatch "^(private-config\.php|\.env.*)$">
+  Require all denied
+</FilesMatch>
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
